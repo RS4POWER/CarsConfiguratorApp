@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="1140.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="767.0" layoutY="599.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="149.0" text="Edit" />
+      <Button layoutX="953.0" layoutY="599.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="149.0" text="Delete" />
+      <Button fx:id="LogOut" layoutX="1028.0" layoutY="14.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="95.0" style="-fx-background-color: #dd2d2d;" text="LogOut" textFill="WHITE" />
+   </children>
+</Pane>

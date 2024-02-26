@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.loose.fis.sre.registerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-29T13:21:30" hostname="DESKTOP-03G6HGI" time="6.145">
+  <properties/>
+  <testcase name="testRegistration(FxRobot)" classname="org.loose.fis.sre.registerTest" time="6.145"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jun 29, 2022 4:21:30 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 18 by JavaFX runtime of version 15.0.1
+]]></system-err>
+</testsuite>

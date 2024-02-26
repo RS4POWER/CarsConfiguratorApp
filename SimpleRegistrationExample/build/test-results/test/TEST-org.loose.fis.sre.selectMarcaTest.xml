@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.loose.fis.sre.selectMarcaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-29T13:21:36" hostname="DESKTOP-03G6HGI" time="2.539">
+  <properties/>
+  <testcase name="testLogin(FxRobot)" classname="org.loose.fis.sre.selectMarcaTest" time="2.539"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jun 29, 2022 4:21:36 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 18 by JavaFX runtime of version 15.0.1
+Jun 29, 2022 4:21:38 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 18 by JavaFX runtime of version 15.0.1
+]]></system-err>
+</testsuite>

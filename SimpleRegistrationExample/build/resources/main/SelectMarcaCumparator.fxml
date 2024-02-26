@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.loose.fis.sre.controllers.AlegeMarca">
+   <children>
+      <AnchorPane prefHeight="557.0" prefWidth="368.0">
+         <children>
+            <ImageView fitHeight="557.0" fitWidth="470.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Imagini/red-pads-pedal-wheel-car.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ChoiceBox fx:id="marciauto" layoutX="488.0" layoutY="260.0" prefHeight="37.0" prefWidth="219.0" />
+      <Button fx:id="selectButton" layoutX="485.0" layoutY="364.0" mnemonicParsing="false" onAction="#selecteazaMasinaOnAction" text="Selecteaza Marca">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Text layoutX="394.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alegeti marca masinii pe care ati vrea sa o cumparati" textAlignment="CENTER" wrappingWidth="424.037109375">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Label fx:id="selecteazaMarca" layoutX="441.0" layoutY="482.0" prefHeight="27.0" prefWidth="299.0" text="" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonLogout" layoutX="740.0" layoutY="30.0" mnemonicParsing="false" onAction="#buttonLogoutOnAction" style="-fx-background-color: #E96151;" text="Logout" textFill="WHITE" />
+   </children>
+</Pane>
